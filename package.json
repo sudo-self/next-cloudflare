@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "next lint", // Add comma here
     "wrangler": "next build && next export && npx wrangler pages dev /.vercel/output/static"
   },
   "dependencies": {
@@ -24,3 +24,4 @@
     "tailwindcss": "^3.3.0"
   }
 }
+
