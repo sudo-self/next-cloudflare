@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
+    "wrangler": "next build && next export && npx wrangler pages dev /.vercel/output/static"
   },
   "dependencies": {
     "react": "^18",
