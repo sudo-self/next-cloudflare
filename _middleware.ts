@@ -1,4 +1,6 @@
-export const onRequest: PagesFunction = async({request, next}) => {
+import type { PagesFunction } from './types';
+
+export const onRequest: PagesFunction = async ({ request, next }) => {
   const { url } = request;
   const { pathname, searchParams } = new URL(url);
   if (
