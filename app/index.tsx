@@ -1,8 +1,8 @@
 //app/index.tsx
 
 import { useState, useEffect } from 'react';
-import { fetchComments } from '../comments';
-import CommentsForm from '../components/CommentsForm';
+import { fetchComments } from './comments';
+import CommentsForm from './components/CommentsForm';
 
 const HomePage: React.FC = () => {
   const [comments, setComments] = useState<string[]>([]);
